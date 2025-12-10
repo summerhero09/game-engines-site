@@ -31,3 +31,31 @@ footer {
   background: #eee;
   text-align: center;
 }
+
+.centered {
+  text-align: left;
+  width: 60%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.small-img {
+  width: 50%;
+  height: auto;
+}
+
+.screenshots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.screenshots img {
+  width: 300px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}

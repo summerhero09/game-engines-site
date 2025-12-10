@@ -25,6 +25,26 @@
       <p>
         This is the site for Maryeva, Rit, Jen, and Chris' game engines project.
       </p>
+      <h1>Demonstration</h1>
+      <h1>Screenshots</h1>
+      <div class="screenshots">
+          <img src="images/ss1.png" alt="Screenshot 1">
+          <img src="images/ss2.png" alt="Screenshot 2">
+          <img src="images/ss3.png" alt="Screenshot 3">
+      </div>
+      <h1>Engine Documentation</h1>
+      <h1>Engine Architecture</h1>
+      <img class="small-img" src="images/EngineDiagram.png" alt="Engine Diagram" />
+      <h1>Download</h1>
+      <h1>Post Mortem</h1>
+      <div class="centered">
+        <p>For our project, we incorporated core game engine concepts while providing a solid foundation for users to build their own levels. The engine features an intuitive interface, and each type of game object exhibits distinct behavior,  allowing for the creation of many different types of levels. Additionally, all of our tiles and sprites were drawn and designed by Chris, which gives our engine a unique and cohesive look. Overall, we produced a polished engine that developers can use effectively without a steep learning curve.</p>
+        <p>While our engine turned out well, several key areas that we would improve upon with additional time are code organization/modularity, level-creation tools, and the visual user interface. </p>
+        <p>One of the challenges we ran into during development was maintaining clean organization across the large amount of code needed to support the engine’s functionality. If we were to spend more time on our engine, we would focus on refactoring the code in our level editor class to make it more efficient. For instance, the collision logic for the tile map could be abstracted into that class, and the logic for spawning objects on tiles could be moved into individual object scripts or integrated directly into the tile-map class.</p>
+        <p>Another area for improvement is the creation of more advanced level-design tools. For example, implementing more advanced enemy logic and enemy movement patterns would allow users to design more challenging levels. Expanding the physics system beyond simple collisions to support elements like projectile attacks would also enhance gameplay possibilities. Additionally, being able to support multiple 2D perspectives (top-down and side-scrolling) would allow for more level design possibilities.  A more complex tile-map system, such as one with multiple layers or customizable tile attributes beyond just texture, would also be a future improvement to our current systems.</p>
+        <p>Finally, having a more expansive user interface is a future goal. Ideally, the user would be able to view the entire scene hierarchy, including game objects, similar to Unity’s scene view. It is also a goal to have a visual representation of the resource manager so the user can see what textures/objects have been loaded from the JSON file. Displaying the individual components associated with each game object would further improve usability. Additionally, if layers were included in the tile map or in the scene, the corresponding UI would also need to be created to allow users to manage those layers.</p>
+      </div>
+
     </main>
 
     <!-- Footer -->
